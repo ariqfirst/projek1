@@ -1,0 +1,11 @@
+ <select name="id_k" id="">
+       <option name="id_k">ID_OBAT</option>
+      <?php
+       $id_k=msqli_querry($conn,"select ID_OBAT,nama from obat");
+       while($x=mysqli_fecth_array($id_k))
+       {
+           echo"<option value='$x[ID_OBAT]'>$x[nama]</option>";
+       }
+      
+      ?>
+    </select>

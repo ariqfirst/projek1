@@ -1,0 +1,24 @@
+.rangka{
+    width: 90%;
+    height: 600px;
+    background-color: blue;
+    margin: auto;
+}
+
+.baner{z-index: 1; width: 150px; height: 150px; background-color: brown; position: fixed; left: 10px;}
+.k1{width: 23%; float: left; background-color: blueviolet; height: 200px; margin: 1%;}
+.iklan{background-color: yellowgreen;}
+
+@media only screen and (max-width: 600px) 
+{
+    .baner{display: none;}
+   .rangka{
+    width: 90%;
+    height: 600px;
+    background-color:black;
+    margin: auto;
+    }
+   .k1{width: 90%; clear: both; background-color: blueviolet; height: 200px; margin: 1%;} 
+   .iklan{background-color: yellowgreen;}
+} 
+

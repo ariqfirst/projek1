@@ -1,0 +1,22 @@
+.rangka{width: 100%; height: 670px; margin: auto; background-color:white;}
+.head{width: 100%; height: 200px; background-color: blue; margin: auto;}
+.head img{width: 100%;height: 200px; }
+.nav li{float: left; margin: 20px; list-style: none;}
+.nav a{text-decoration: none; padding: 10px; color: black;}
+.nav a:hover{color: blue;}
+.cont{width: 100%; height: 300px; background-color: brown; margin-top: 100px;}
+.gambar{width: 30%;height: 300px; float: left;}
+.gambar img{width: 100%; height: 300px;}
+.tex{width: 70%; height: 300px; float: left; background-color: white;} 
+.tex article{padding: 20px;}
+
+
+@media only screen and (max-width: 600px) 
+{
+    .rangka{width: 100%; height: 670px;}
+    .cont{width: 100%; height: 145px; background-color: brown; margin-top: 100px;}
+    .gambar{width: 30%;height: 145px; float: left;}
+    .gambar img{width: 100%; height: 145px;}
+    .tex{width: 70%; height: 700px; float: left; background-color: white;} 
+    .tex article{padding: 20px;}
+}

@@ -1,0 +1,13 @@
+.rapi{width: 100%; height: 1000px; margin: auto; background-color: aqua;}
+.baris{clear: both;}
+.teks{text-align: center;}
+.head{width: 100%; height: 300px; ; margin: auto;}
+.navi{width: 100%; height: 50px; ; margin: auto;}
+.navi li{list-style: none; float: left; margin: 10px; background-color:brown ; border-radius: 20px;}
+.navi a{color: black; font-size: 20px; text-decoration: none; padding: 10px;}
+.navi a:hover{color: blueviolet;} 
+.navi li:hover{color: blue ; background-color: blue;}
+.content{width: 60%; height:300px;background-color: blue; margin: auto; float: left;}
+.main{width: 40%;height: 300px; background-color: brown; margin: auto; float: left;} 
+.footer{width: 100%; height: 50px; background-color: azure; margin: auto;} 
+.content article{padding: 10px;}
