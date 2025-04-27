@@ -9,6 +9,11 @@
     <script src="js/bootstrap.js"></script>
 </head>
 <body>
+    <form action="" method="post">
+        <input type="text" name="" class="" > 
+
+
+    </form>
     <form action="proses_pasien1.php" method="post">
         <label for="">ID Pasien</label> <input type="text" name="id_pasien" class="form-control"><p></p>
         <label for="">Nama</label> <input type="text" name="nama" class="form-control"> <p></p>
@@ -19,8 +24,16 @@
         <input type="submit" class="form-control btn btn-primary" name="kirim">
 
         <?php
-        if()
+        if(isset($_POST['pencarian']))
+        {
+            include"k.php";
+            $nama=$_POST['pencarian'];
+            $pencarian="SELECT * FROM `pasien` WHERE id_pasien like '%$nama%'";
+            $cari=$conn->query($pencarian);
+        }
         ?>
     </form>
+
+    
 </body>
 </html>
